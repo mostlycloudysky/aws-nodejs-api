@@ -1,0 +1,16 @@
+{
+  "name": "aws-nodejs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "start": "node ./node_modules/pm2/bin/pm2 start ./server.js --name nodeapi_aws --log ../logs/app.log ", 
+    "stop": "node ./node_modules/pm2/bin/pm2 stop nodeapi_aws", 
+    "build": "echo 'Building...'"
+  },
+  "author": "Sandeep Yaramchitti",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^5.1.1"
+  }
+}
