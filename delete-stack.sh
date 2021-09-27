@@ -1,0 +1,1 @@
+aws cloudformation delete-stack --stack-name arn:aws:cloudformation:us-east-1:273509275056:stack/awsbootstrap/0ce85070-1fa1-11ec-8aae-0aff2d310d17 --profile awsbootstrap
